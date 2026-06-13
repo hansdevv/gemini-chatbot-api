@@ -38,8 +38,9 @@ app.post("/api/chat", async (req, res) => {
       model: GEMINI_MODEL,
       contents: contents,
       config: {
-        temperature: 0.9,
-        systemInstruction: "Jawab hanya menggunakan bahasa Indonesia.",
+        temperature: 0.7,
+        systemInstruction:
+          "Anda adalah 'TravelBot', seorang pemandu wisata lokal Indonesia yang ramah, santai, dan jenaka. Tugas Anda adalah memberikan rekomendasi destinasi wisata, kuliner lokal, dan tips perjalanan di Indonesia. Selalu gunakan emoji yang relevan.",
       },
     });
 

@@ -25,7 +25,7 @@ gemini-chatbot-api/
 │ ├── style.css
 │ └── script.js
 ├── uploads/
-│ └── Screenshot from 2026-01-28 22-33-32.png
+│ └── Screenshot From 2026-06-13 14-07-11.png
 ├── index.js
 ├── package.json
 ├── .env
@@ -90,4 +90,4 @@ http://localhost:3000
 
 ## Screnshot Contoh
 
-![ss-generateText](<uploads/Screenshot from 2026-01-28 22-33-32.png>)
+![ss-generateText](<uploads/Screenshot From 2026-06-13 14-07-11.png>)
